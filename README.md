@@ -1,59 +1,14 @@
-# Lab10c
+# Installing Angular
+Setting everything up wasn't too difficult. I ran a few commands, and it was good to go. 
+I did get an error that said something like, "(project name) cannot be loaded because 
+running scripts is disabled on this system." I found the fix on Stack Overflow, which 
+said I needed to run a script as an administrator to build the project.
+The hardest part was definitely hosting it. I used GitHub Pages because it was easy, and I didn't 
+want to link my credit card to another website.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.3.
+# Building this beautiful websites
+To build this website, I had to go into the source files. It took me a bit to get used to the overall structure, 
+but once I did, it was pretty simple. Then, I went to the app folder and changed the default templates for 
+app.component.css and app.component.html. After that, I pushed my changes to GitHub, and that was it.
 
-## Development server
-
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Homer Simpson](https://th.bing.com/th/id/OIP.tbg7X6PBHV2YXiSx8DYDQAAAAA?rs=1&pid=ImgDetMain "Homer Simpson")
